@@ -22,3 +22,6 @@ perperson = total_bill / people
 #print("Each person pays: " + "$" + str(round(perperson, 2)))
 #f'{value:{width}.{precision}}'
 print(f"Each person pays ${perperson:.2f}")
+
+#Another way to format:
+#final_amount = "{:.2f}".format(perperson)
