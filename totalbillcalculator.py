@@ -19,4 +19,6 @@ people = int(input("How many people to split the bill?: "))
 total_bill = ( ( tippercentage / 100 ) * bill ) + bill
 perperson = total_bill / people
 
-print("Each person pays: " + "$" + str(round(perperson, 2)))
+#print("Each person pays: " + "$" + str(round(perperson, 2)))
+#f'{value:{width}.{precision}}'
+print(f"Each person pays ${perperson:.2f}")
